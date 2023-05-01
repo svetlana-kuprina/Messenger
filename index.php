@@ -47,9 +47,9 @@ function edit (&$textStorage,int $index,string $titleArr,string $textArr)
 
 $i=0;
 do{
-    echo 'Введите заголовок';
+    echo 'Введите заголовок ';
     $userInputTitle = readline('Введите заголовок');
-    echo 'Введите текст';
+    echo 'Введите текст ';
     $userInputText = readline('Введите текст');
     add($textStorage,$userInputTitle, $userInputText);
     $i++;
